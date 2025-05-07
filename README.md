@@ -117,6 +117,7 @@ I configured the .env file for the frontend to set the backend API base URL and 
 I built the frontend using pnpm and deployed it to the S3 bucket:
 pnpm run build
 aws s3 sync dist/ s3://halatahlawi-blogapp-frontend/
+http://halatahlawi-blogapp-frontend.s3-website-us-east-1.amazonaws.com/
 -------------------------------------------------------------------------------------------------------------------------------------
 
 part 6 Testing:
